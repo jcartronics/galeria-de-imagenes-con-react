@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.general{
+  color: #ccc;
+  background-color: black;
+}
+
+.header {
+  background-color: #00275e;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1rem;
+}
+
+.tarjeta {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #b3b3b3;
+}
+
+.cardImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #00275e;
+  padding: 1rem;
+  text-align: center;
+}
